@@ -9,7 +9,7 @@ body{
     grid-template-columns: 1fr 3fr 1fr;
     height: 100vh;
     width: 100vw;
-    background-color: #faf5ff;
+    background-color: #e9d5ff;
     padding: 0px;
 }
 
@@ -22,8 +22,61 @@ body{
     background-color: white;
     grid-area: 1 / 2 / 2 / 4; 
     box-shadow: 0px 2px 5px grey;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-top-row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-bottom-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bell-icon{
+    margin-left: 120px;
 }
 
 .project-card{
     background-color: #d9f99d;
+}
+
+.search-bar{
+    background-color: #e9d5ff;
+    width: 40vw;
+    height: 25px;
+    border-radius: 14px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    border-radius: 10px;
+    border-style: none;
+    background-color: #c084fc;
+    color: white;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.smallwords{
+    font-size: small;
+}
+
+.bigwords{
+    font-size: x-large;
 }
