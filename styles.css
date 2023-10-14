@@ -135,3 +135,19 @@ h4{
     border-radius: 10px;
     box-shadow: 0px 2px 5px grey;
 }
+
+.Greyed{
+    color: grey;
+}
+
+.trending-account{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+p{
+    margin-block-start: 4px;
+    margin-block-end: 4px;
+}
