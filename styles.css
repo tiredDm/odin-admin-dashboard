@@ -134,6 +134,7 @@ h4{
     width: 100%;
     border-radius: 10px;
     box-shadow: 0px 2px 5px grey;
+    
 }
 
 .Greyed{
@@ -150,4 +151,25 @@ h4{
 p{
     margin-block-start: 4px;
     margin-block-end: 4px;
+}
+
+.announceList{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+.announceList p{
+    color: grey;
+    font-size:x-small;
+}
+
+h3{
+    margin-block-end: 0px ;
+    margin-block-start: 5px;
 }
