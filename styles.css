@@ -101,6 +101,9 @@ h4{
     color:white;
     font-weight: bold;
     font-size: x-large;   
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .main-content{
